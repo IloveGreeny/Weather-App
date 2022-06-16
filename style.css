@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#main-container {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Stormclouds.jpg/250px-Stormclouds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+header {
+    height: 5.5rem;
+    position: relative;
+}
+
+form {
+    height: 100%;
+}
+.form-group {
+    float: left;
+    height: 80%;
+    position: relative;
+    margin: 2.5rem 3.5rem 0 0;
+}
+
+.fa-search {
+    color: #f3f3f3;
+    font-size: 1.8rem;
+}
+main-weather-display {
+    position: absolute;
+    top: 30%;
+    width: 90%;
+    margin-left: 100rem;
+    color: #f3f3f3;
+}
+
+.condition {
+    font-size: 2.2rem;
+    letter-spacing: 0.1rem;
+    padding-left: 3rem;
+    margin-left: 100rem;
+}
+
+.location {
+    font-size: 4rem;
+    line-height: 3.5rem;
+    margin-bottom: 2rem;
+    margin-left: 100rem;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+}
+
+.degrees {
+    font-size: 15rem;
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 100rem;
+}
+
+.degrees::after {
+    content: '\00B0 F';
+    font-size: 3rem;
+    position: absolute;
+    top: 1.8rem;
+    left: 17.3rem;
+    margin-left: 110rem;
+    margin-top: 20rem;
+}
+
+
+.weather-details {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    top: 45%;
+    left: 22.5rem;
+    height: 10rem;
+    margin-bottom: 20rem;
+    padding-left: 100rem;
+    justify-content: space-between;
+}
+
+
