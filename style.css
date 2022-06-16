@@ -84,6 +84,7 @@ main-weather-display {
     margin-left: 110rem;
     margin-top: 20rem;
 }
+
 .weather-details {
     display: flex;
     flex-direction: column;
